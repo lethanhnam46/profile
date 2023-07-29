@@ -122,8 +122,9 @@ body .container .box {
 }
 
 .stt {
-  display: inline-block;
+  display: block;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .box_content {
@@ -477,4 +478,10 @@ ul li .audio-duration {
 ul li.playing {
   pointer-events: none;
   color: var(--darkwhite);
+}
+
+canvas {
+  position: absolute;
+  width: 88%;
+  height: 55%;
 }
